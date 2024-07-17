@@ -1,0 +1,53 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    
+    --primary-color: #bc7270;
+    --secondary-color: #703a39;
+    --accent-color: #cea6a5;
+    --text-color: #f1eae9;
+    --secondary-text-color: #575757;
+    --background-color: #160d0d;
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 20px 120px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* custom scroolbar because if i do overflow hidden then the webpage gets limited to a specific size */
+
+  /* Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #cea6a5 #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #cea6a5;
+    border-radius: 0px;
+    border: 0px none #ffffff;
+  }

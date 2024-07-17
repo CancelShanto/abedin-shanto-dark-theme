@@ -1,0 +1,196 @@
+@media only screen and (min-width: 300px) and (max-width: 500px){
+
+
+    body{
+        padding: 20px 20px;
+        margin: 0;
+        overflow: hidden;
+    }
+
+    .logo{
+        font-size: 8px;
+        width: 10px;
+        white-space: nowrap;
+    }
+
+     .navbar h1{
+        display: flex;
+        gap: 0px;
+        font-size: 8px;
+        padding: 0px;
+        white-space: nowrap;
+    }
+
+    .navbar-items{
+        gap: 10px;
+    }
+
+    .cv {
+        background-color: var(--background-color);
+        color: var(--accent-color);
+    }
+
+    .left-side h1{
+        font-size: 12px;
+    }
+
+    .left-side img{
+        display: none;
+    }
+
+    .left-side p{
+        font-size: 8px;
+    }
+
+    .left-side{
+        margin: 0;
+        padding: 0;
+    }
+
+    .all-socials i{
+        font-size: 12px;
+    }
+
+    .inner-button{
+        padding: 0px;
+        height: 10px;
+        width: 1px;
+    }
+
+    .inner-button h1, i{
+        font-size: 10px;
+    }
+
+
+    .full-button{
+        width: 150px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        white-space: nowrap;
+        margin-bottom: 0px;
+    }
+
+    .port-button{
+        display: flex;
+        justify-content: center;
+        padding: 10px 0px;
+        margin: 0px;
+        height: 4px;
+        width: 100px;
+        position: absolute;
+        top: 292px;
+        left: 23px;
+    }
+
+    .hire-button{
+        margin-left: 100px;
+    }
+
+    .hire-button h1{
+        font-size: 10px;
+    }
+
+
+    /* image */
+    .right-side img{
+        width: 90%;
+        height: 90%;
+        margin-top: 60px;
+    }
+
+    /* line thingy */
+    .line-parent{
+        gap: 8px;
+        padding: 10px 0px;
+        width: 600px;
+    }
+
+    .line-parent{
+        top: 40%;
+    }
+    
+    .line-parent h1{
+        font-size: 8px;
+        font-weight: 300;
+    }
+
+    .line-parent img{
+        display: none;
+    }
+
+    /* about me */
+    .about-me h1{
+        font-size: 12px;
+    }
+    .about-me p{
+        font-size: 8px;
+    }
+
+    .about-me{
+        margin: 0px;
+    }
+
+    /* experience */
+    .experience h1{
+        font-size: 12px;
+    }
+    
+    .experience p{
+        font-size: 8px;
+    }
+
+    /* stars */
+    .stars i{
+        font-size: 8px;
+    }
+    .stars{
+        margin-top: 20px;
+        gap: 2px;
+    }
+
+    .about-me{
+        margin-top: 70px;
+    }
+
+    /* experience */
+    
+    .experience-left h1{
+        font-size: 12px;
+    }
+    
+    .experience-left p{
+        font-size: 8px;
+    }
+    
+    .experience-both{
+        margin: 0;
+        padding: 0px 10px;
+        width: 100%;
+        position: absolute;
+        top: 540px;
+        left: 0;
+    }
+
+    .experience-right h1{
+        font-size: 12px;
+    }
+
+    .experience-right p{
+        font-size: 8px;
+    }
+
+    .experience-right{
+        padding: 20px 20px;
+    }
+
+    /* awards */
+
+    
+
+
+
+
+}
